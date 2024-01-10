@@ -161,7 +161,7 @@ Hello, Shri kant!
 '
 
 
-### Comments 
+### Comment 
 
 Comments start with a # in bash scripting. This means that any line that begins with a # is a comment and will be ignored by the interpreter.
 
@@ -171,13 +171,13 @@ These are examples of comments:
 ```bash 
 
 # Thisline is comment it will be ignored by the interpreter
-# Single line comments
+# Single line comment
 
 For multi line comment
 
 << text
 
-this is multi line comment
+this is multi line comment Syntax
 
 
 text
@@ -185,7 +185,7 @@ text
 or
 :'
 
-Also use for multi line
+Also this  for multi line Syntax
 '
 
 ```
@@ -526,7 +526,7 @@ done
 
 The until statement is very similar in syntax and function to the while statement. The only real difference between the two is that the until statement executes its code block while **its conditional expression is false**, and the while statement executes its code block while **its conditional expression is true**.
 
-syntax:
+**Syntax:**
 ```bash
 until expression
 	do
@@ -637,7 +637,7 @@ done
     ${array[@]}: Represents all the elements in the array.
     ${!array[@]}: Represents all the indices in the array.
 
-Example:
+**Example:**
 
 ```bash
 
@@ -785,7 +785,7 @@ These are some basic string operations in Bash. Keep in mind that Bash is quite 
 
 # Function
 
-In Bash scripting, functions allow you to group commands and execute them as a single unit. Functions help make your scripts more modular and maintainable. Here's the basic syntax for defining and using functions in Bash:
+ Functions allow you to group commands and execute them as a single unit. Functions help make your scripts more modular and maintainable. Here's the basic syntax for defining and using functions in Bash:
 
 ```bash
 
@@ -864,7 +864,7 @@ Functions can also be used to structure your script, making it more organized an
 
  File handling involves performing operations on files, such as reading from them, writing to them, checking their existence, and more. Here are some common file handling operations in Bash:
 
-1. Reading from a File:
+**1. Reading from a File:**
 Reading a Entire File:
 
 ```bash
@@ -884,7 +884,7 @@ cat filename.txt | while IFS= read -r line; do
     echo "$line"
 done
 ```
-2. Writing to a File:
+**2. Writing to a File:**
 Writing a Single Line:
 
 ```bash
@@ -898,7 +898,7 @@ bash
 echo "New content" >> existing_file.txt
 ```
 
-3. Checking File Existence:
+**3. Checking File Existence:**
 
 ```bash
 
@@ -908,7 +908,7 @@ else
     echo "File does not exist."
 fi
 ```
-4. Checking if a File is a Directory:
+**4. Checking if a File is a Directory:**
 
 ```bash
 
@@ -919,7 +919,7 @@ else
 fi
 ```
 
-5. Checking if a File is Readable/Writable/Executable:
+**5. Checking if a File is Readable/Writable/Executable:**
 
 ```bash
 
@@ -935,7 +935,7 @@ if [ -x "script.sh" ]; then
     echo "Script is executable."
 fi
 ```
-6. Copying, Moving, and Renaming Files:
+**6. Copying, Moving, and Renaming Files:**
 Copying a File:
 
 ```bash
@@ -948,13 +948,13 @@ Moving/Renaming a File:
 
 mv old_filename.txt new_filename.txt
 ```
-7. Deleting a File:
+**7. Deleting a File:**
 
 ```bash
 
 rm filename.txt
 ```
-8. Counting Lines, Words, and Characters in a File:
+**8. Counting Lines, Words, and Characters in a File:**
 
 ```bash
 
@@ -965,7 +965,7 @@ characters=$(wc -c < filename.txt)
 echo "Lines: $lines, Words: $words, Characters: $characters"
 ```
 
-9. Searching for a String in a File:
+**9. Searching for a String in a File:**
 
 ```bash
 
