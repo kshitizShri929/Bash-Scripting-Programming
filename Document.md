@@ -275,7 +275,7 @@ Bash doesn't have native bitwise operators. Use external tools like bc or perfor
 
 
 
-# Conditinoal statement
+# Conditional statement
 
 Statements that help to execute different code branches based on certain conditions are known as conditional statements.
 
