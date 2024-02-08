@@ -556,7 +556,7 @@ echo "Time's up!"
 
 # Array
 
- an array is a variable that can store multiple values. Bash supports one-dimensional indexed and associative arrays. Here's a basic overview of arrays in Bash:
+ An array is a variable that can store multiple values. Bash supports one-dimensional indexed and associative arrays. Here's a basic overview of arrays in Bash:
 
 ### Indexed Arrays:
 
