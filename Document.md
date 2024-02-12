@@ -92,7 +92,7 @@ Here,
 
 #### Step 3: Executing the Script
 
-Now that your script is executable, You can run the script using any of the mentioned methods:
+Now you have the privileges to execute the script file, You can run the script using any of the mentioned methods:
 
 ```bash 
     sh filename.sh
