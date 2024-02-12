@@ -1,7 +1,7 @@
 # Bash Scripting
 
 # Table of Contents
-
+-[Pre-requisites](#Pre-requisites)
 - [Introduction of Bash Scripting](#introduction-of-bash-scripting)
 
 - [Writing and Executing Simple Scripts](#writing-and-executing-simple-scripts)
