@@ -440,15 +440,15 @@ Bash supports following three types of looping statement
 For loops are typically used when the number of iterations is known before entering the bash loop. Bash supports two kinds of for loop. The first form of bash for loop is:
 
 ```bash
-for varname in list
+for varname in the list
 	do
 		commands ##Body of the loop
 	done
 ```
 In the above syntax:
 
-for, in, do and done are keywords
-List is any list which has list of items
+there are predefined keywords in the bash script as  for, in, do, and done etc.
+The list is any list that has a list of items
 varname is any Bash variable name.
 
 **Example**
