@@ -11,6 +11,7 @@
 - [String](#string)
 - [Function](#function)
 - [File Handling](#file-handling)
+- [References](#References)
 
 
 
@@ -976,6 +977,13 @@ else
 fi
 ```
 These are basic examples of file handling in Bash. Depending on your specific use case, you may need to combine these operations or use additional tools to achieve more complex file manipulations. Always consider error handling and edge cases when working with files in scripts.
+
+
+### References
+- https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/
+- https://www.geeksforgeeks.org/bash-scripting-for-loop/
+- https://linuxconfig.org/how-to-use-arrays-in-bash-script
+
 
 
 
