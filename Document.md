@@ -1,7 +1,7 @@
 # Bash Scripting
 
 # Table of Contents
--[Pre-requisites](#Pre-requisites)
+- [Pre-requisites](#Pre-requisites)
 - [Introduction of Bash Scripting](#introduction-of-bash-scripting)
 
 - [Writing and Executing Simple Scripts](#writing-and-executing-simple-scripts)
@@ -34,7 +34,7 @@ A running version of Linux with access to the command line.
 
 ### Scripting
 
-Scripting allows for an automatic commands execution that would otherwise be executed interactively one-by-one.
+Scripting allows for an automatic command execution that would otherwise be executed interactively one by one.
 
 ## Advantages of Bash Scripting:
 
@@ -52,7 +52,7 @@ Scripting allows for an automatic commands execution that would otherwise be exe
 
 #### Step 1.Writing a Bash Script
 
-Open a text editor (nano, vim or vi) and create a new file. Let's call it filename.sh , Here's a simple example script:
+Open a text editor (nano, vim or vi) and create a new file. Let's call it filename.sh, Here's a simple example script:
 
 ```bash
 
