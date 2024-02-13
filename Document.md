@@ -227,7 +227,11 @@ There are five basic operators in bash/shell scripting:
 3. Boolean Operators.
 4. Bitwise Operators.
 5. File Test Operators.
-1. Arithmetic Operators: These operators are used to perform normal arithmetics/mathematical operations. There are 7 arithmetic operators:
+
+   
+### Arithmetic Operators:
+
+These operators are used to perform normal arithmetics/mathematical operations. There are 7 arithmetic operators:
 
 **Addition (+):** Binary operation used to add two operands.
 
