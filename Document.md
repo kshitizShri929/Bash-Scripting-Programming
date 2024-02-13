@@ -227,20 +227,40 @@ There are five basic operators in bash/shell scripting:
 3. Boolean Operators.
 4. Bitwise Operators.
 5. File Test Operators.
+1. Arithmetic Operators: These operators are used to perform normal arithmetics/mathematical operations. There are 7 arithmetic operators:
 
-#### Arithmetic Operators:
+Addition (+): Binary operation used to add two operands.
+Subtraction (-): Binary operation used to subtract two operands.
+Multiplication (*): Binary operation used to multiply two operands.
+Division (/): Binary operation used to divide two operands.
+Modulus (%): Binary operation used to find remainder of two operands.
+Increment Operator (++): Unary operator used to increase the value of operand by one.
+Decrement Operator (- -): Unary operator used to decrease the value of a operand by one
+ 
+```bash
+#!/bin/bash
 
-Addition (+): result=$((a + b))
+# Define variables
+a=10
+b=3
 
-Subtraction (-): result=$((a - b))
+# Perform arithmetic operations
+addition=$((a + b))
+subtraction=$((a - b))
+multiplication=$((a * b))
+division=$((a / b))
+modulo=$((a % b))
+exponentiation=$((a ** b))
 
-Multiplication (*): result=$((a * b))
+# Print results
+echo "Addition: $addition"
+echo "Subtraction: $subtraction"
+echo "Multiplication: $multiplication"
+echo "Division: $division"
+echo "Modulo: $modulo"
+echo "Exponentiation: $exponentiation"
 
-Division (/): result=$((a / b))
-
-Modulus (%): result=$((a % b)) 
-
-Modulus(%) used for find reminder
+```
         
 #### Relational Operators:
 
@@ -257,6 +277,13 @@ Greater than or equal to (>=): [[ $a -ge $b ]]
 Less than or equal to (<=): [[ $a -le $b ]]
 
 #### Boolean Operators:
+logical operators are used to perform logical operations on expressions or conditions. The three main logical operators in Bash are:
+
+Logical AND (&&): This operator returns true if both the left and right expressions are true.
+
+Logical OR (||): This operator returns true if either the left or right expressions are true.
+
+Logical NOT (!): This operator negates the value of the expression. If the expression is true, ! makes it false, and if it's false, ! makes it true.
 
 AND (&&): [[ condition1 && condition2 ]]
 OR (||): [[ condition1 || condition2 ]]
@@ -282,7 +309,41 @@ Bash doesn't have native bitwise operators. Use external tools like bc or perfor
 
 -x: [[ -x $file_path ]] (executable)
 
+```bash
+#!/bin/bash
 
+file="example.txt"
+
+# Check if file exists
+if [ -e "$file" ]; then
+    echo "$file exists."
+fi
+
+# Check if file is readable
+if [ -r "$file" ]; then
+    echo "$file is readable."
+fi
+
+# Check if file is writable
+if [ -w "$file" ]; then
+    echo "$file is writable."
+fi
+
+# Check if file is executable
+if [ -x "$file" ]; then
+    echo "$file is executable."
+fi
+
+# Check if file is a regular file
+if [ -f "$file" ]; then
+    echo "$file is a regular file."
+fi
+
+# Check if file is a directory
+if [ -d "$file" ]; then
+    echo "$file is a directory."
+fi
+```
 
 # Conditional statement
 
