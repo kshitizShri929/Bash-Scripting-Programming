@@ -88,7 +88,7 @@ echo "Current date: $current_date"
 
 
 
-Save the file and exit the text editor.
+ in nano text editor you can Save(Ctrl+o)the file and exit(Ctrl+x) the text editor.
 
 #### Step 2. Executing the bash script
 
@@ -172,7 +172,7 @@ Enter your name:
 Shri kant
 
 Hello, Shri kant!
-'
+
 
 
 ### Comment 
@@ -196,11 +196,6 @@ this is multi line comment Syntax
 
 text
 
-or
-:'
-
-Also this  for multi line Syntax
-'
 
 ```
 ### Variable
@@ -245,7 +240,7 @@ Division (/): result=$((a / b))
 
 Modulus (%): result=$((a % b)) 
 
-Modulus(%) use for find remender
+Modulus(%) used for find reminder
         
 #### Relational Operators:
 
@@ -315,7 +310,7 @@ if [ "$Completed_Task" -eq 6 ];
 
 then
 
-  echo "Congratualations Team!, Now you are member of TechInternTeam."
+  echo "Congratulations Team!, Now you are a member of TechInternTeam."
 
 fi
 
@@ -328,7 +323,7 @@ You can use if statements in a variety of ways. The generic structure of if stat
     
 Using if statement only: if...then...fi
 
-#### if else Statements
+#### if-else Statements
 
 ```bash
 if [ condition ];
@@ -347,7 +342,7 @@ fi
 echo "Please enter a number: "
 # user gives a number 
 read num
-# check  num is greater then zero then print num is positive 
+# check  num is greater than zero then print num is positive 
 
 if [ $num -gt 0 ]; then
 
@@ -438,9 +433,9 @@ esac
 
 # Control Flow
 
-The shell language also provide several iteration or looping statements. In this article let us review the looping statements which bash provides using some examples.
+The shell language also provides several iteration or looping statements. In this article let us review the looping statements which bash provides using some examples.
 
-Bash supports following three types of looping statement
+Bash supports the following three types of looping statement
 
 1. For loop
 
@@ -467,7 +462,7 @@ varname is any Bash variable name.
 **Example**
 ```bash
 #!/bin/bash
-# For loop with number range
+# For loop with a number range
 for i in {0..5}
 do
         echo "Number $i"
@@ -477,7 +472,7 @@ done
 
 #### For Loop – Second Method
 
-The second form of for loop is similar to the for loop in ‘C’ programming language, which has three expression (initialization, condition and updation).
+The second form of for loop is similar to the for loop in ‘C’ programming language, which has three expressions (initialization, condition and updation).
 
 ```bash
 for (( expr1; expr2; expr3 ))
@@ -489,7 +484,7 @@ for (( expr1; expr2; expr3 ))
 	
 - In the above bash for command     syntax, before the first iteration, expr1 is evaluated. This is usually used to initialize variables for the loop.
 - All the statements between do and done is executed repeatedly until the value of expr2 is TRUE.
-- After each iteration of the loop, expr3 is evaluated. This is usually use to increment a loop counter.
+- After each iteration of the loop, expr3 is evaluated. This is usually used to increment a loop counter.
 
 **Example**
 ```bash
