@@ -17,8 +17,21 @@
 
 ## Pre-requisites:
 
-A running version of Linux with access to the command line.
+A running version of Linux with access to the command line. you can use any version of Linux.
 
+```PRETTY_NAME="Ubuntu 22.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.3 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+```
 # Introduction of Bash Scripting
 
 ### Bash Shell Scripting Definition
@@ -97,7 +110,7 @@ Now you have the privileges to execute the script file, You can run the script u
 ```bash 
     sh filename.sh
 or
-    filename.sh
+    bash filename.sh
 or
     ./filename.sh
 ```
