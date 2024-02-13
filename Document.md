@@ -88,7 +88,7 @@ echo "Current date: $current_date"
 
 
 
- in nano text editor you can Save(Ctrl+o)the file and exit(Ctrl+x) the text editor.
+ in nano text editor you can Save (Ctrl+o) the file and exit(Ctrl+x) the text editor.
 
 #### Step 2. Executing the bash script
 
