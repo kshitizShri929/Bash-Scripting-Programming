@@ -990,6 +990,7 @@ These are basic examples of file handling in Bash. Depending on your specific us
 ### References
 - https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/
 - https://www.geeksforgeeks.org/bash-scripting-for-loop/
+- https://www.learnshell.org/
 - https://linuxconfig.org/how-to-use-arrays-in-bash-script
 
 
