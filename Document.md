@@ -229,13 +229,19 @@ There are five basic operators in bash/shell scripting:
 5. File Test Operators.
 1. Arithmetic Operators: These operators are used to perform normal arithmetics/mathematical operations. There are 7 arithmetic operators:
 
-Addition (+): Binary operation used to add two operands.
-Subtraction (-): Binary operation used to subtract two operands.
-Multiplication (*): Binary operation used to multiply two operands.
-Division (/): Binary operation used to divide two operands.
-Modulus (%): Binary operation used to find remainder of two operands.
-Increment Operator (++): Unary operator used to increase the value of operand by one.
-Decrement Operator (- -): Unary operator used to decrease the value of a operand by one
+**Addition (+):** Binary operation used to add two operands.
+
+**Subtraction (-):** Binary operation used to subtract two operands.
+
+**Multiplication (*):** Binary operation used to multiply two operands.
+
+**Division (/):** Binary operation used to divide two operands.
+
+**Modulus (%):** Binary operation used to find remainder of two operands.
+
+**Increment Operator (++):** Unary operator used to increase the value of operand by one.
+
+**Decrement Operator (- -):** Unary operator used to decrease the value of a operand by one
  
 ```bash
 #!/bin/bash
@@ -264,26 +270,28 @@ echo "Exponentiation: $exponentiation"
         
 #### Relational Operators:
 
-Equal to (==): [[ $a -eq $b ]]
+Relational operators in Bash are used to compare values. They return true or false depending on the relationship between the values being compared.
 
-Not equal to (!=): [[ $a -ne $b ]]
+**Equal to (==) or [[ $a -eq $b ]]:** Returns true if the operands are equal.
 
-Greater than (>): [[ $a -gt $b ]]
+**Not equal to (!=) or [[ $a -ne $b ]]:** Returns true if the operands are  not equal.
 
-Less than (<): [[ $a -lt $b ]]
+**Greater than (>) or [[ $a -gt $b ]]:** Returns true if operand1 is Greater then opernd2 .
 
-Greater than or equal to (>=): [[ $a -ge $b ]]
+**Less than (<) or [[ $a -lt $b ]]:** Returns true if the operand1 is Less than operend2.
 
-Less than or equal to (<=): [[ $a -le $b ]]
+**Greater than or equal to (>=) or [[ $a -ge $b ]]:** Returns true if the operand1 is Greater than or equal to operand2.
+
+**Less than or equal to (<=) or [[ $a -le $b ]]:** Returns true if the operand1 is Less than or equal to operand2.
 
 #### Boolean Operators:
 logical operators are used to perform logical operations on expressions or conditions. The three main logical operators in Bash are:
 
-Logical AND (&&): This operator returns true if both the left and right expressions are true.
+**Logical AND (&&):** This operator returns true if both the left and right expressions are true.
 
-Logical OR (||): This operator returns true if either the left or right expressions are true.
+**Logical OR (||):** This operator returns true if either the left or right expressions are true.
 
-Logical NOT (!): This operator negates the value of the expression. If the expression is true, ! makes it false, and if it's false, ! makes it true.
+**Logical NOT (!):** This operator negates the value of the expression. If the expression is true, ! makes it false, and if it's false, ! makes it true.
 
 AND (&&): [[ condition1 && condition2 ]]
 OR (||): [[ condition1 || condition2 ]]
@@ -294,6 +302,8 @@ NOT (!): [[ !condition ]]
 Bash doesn't have native bitwise operators. Use external tools like bc or perform bitwise operations using arithmetic operations.
 
 #### File Test Operators:
+
+File test operators in Bash are used to check various properties of files. These operators are typically used within conditional statements (like if statements) to perform different actions based on the properties of files.
 
 -e: [[ -e $file_path ]] (file exists)
 
