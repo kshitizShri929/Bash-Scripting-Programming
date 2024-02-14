@@ -6,6 +6,7 @@
 
 - [Writing and Executing Simple Scripts](#writing-and-executing-simple-scripts)
 - [Conditinoal statement](#conditinoal-statement)
+- [ Operator](#Operator)
 - [Control flow](#control-flow)
 - [Array](#array)
 - [String](#string)
@@ -218,7 +219,7 @@ Name=$name
 
 This assigns the value of name to the new variable Name
 
-### Operator
+## Operator
 
 There are five basic operators in bash/shell scripting:
 
@@ -272,7 +273,7 @@ echo "Exponentiation: $exponentiation"
 
 ```
         
-#### Relational Operators:
+### Relational Operators:
 
 Relational operators in Bash are used to compare values. They return true or false depending on the relationship between the values being compared.
 
@@ -288,7 +289,7 @@ Relational operators in Bash are used to compare values. They return true or fal
 
 **Less than or equal to (<=) or [[ $a -le $b ]]:** Returns true if the operand1 is Less than or equal to operand2.
 
-#### Boolean Operators:
+### Boolean Operators:
 logical operators are used to perform logical operations on expressions or conditions. The three main logical operators in Bash are:
 
 **Logical AND (&&):** This operator returns true if both the left and right expressions are true.
@@ -301,11 +302,11 @@ AND (&&): [[ condition1 && condition2 ]]
 OR (||): [[ condition1 || condition2 ]]
 NOT (!): [[ !condition ]]
 
-#### Bitwise Operators:
+### Bitwise Operators:
 
 Bash doesn't have native bitwise operators. Use external tools like bc or perform bitwise operations using arithmetic operations.
 
-#### File Test Operators:
+### File Test Operators:
 
 File test operators in Bash are used to check various properties of files. These operators are typically used within conditional statements (like if statements) to perform different actions based on the properties of files.
 
@@ -364,7 +365,7 @@ fi
 Statements that help to execute different code branches based on certain conditions are known as conditional statements.
 
 
-#### if Statements
+### if Statements
 
 ```bash
 if [ condition ];
@@ -398,7 +399,7 @@ You can use if statements in a variety of ways. The generic structure of if stat
     
 Using if statement only: if...then...fi
 
-#### if-else Statements
+### if-else Statements
 
 ```bash
 if [ condition ];
@@ -545,7 +546,7 @@ done
 ```
                     
 
-#### For Loop – Second Method
+### For Loop – Second Method
 
 The second form of for loop is similar to the for loop in ‘C’ programming language, which has three expressions (initialization, condition and updation).
 
