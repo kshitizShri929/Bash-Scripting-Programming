@@ -519,7 +519,7 @@ Bash supports the following three types of looping statement
 
 3. Until loop
 
-#### For Loop – First Method
+### For Loop – First Method
 
 For loops are typically used when the number of iterations is known before entering the bash loop. Bash supports two kinds of for loop. The first form of bash for loop is:
 
@@ -1032,6 +1032,7 @@ Moving/Renaming a File:
 ```bash
 
 mv old_filename.txt new_filename.txt
+
 ```
 **7. Deleting a File:**
 
