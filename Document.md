@@ -18,7 +18,7 @@
 
 ## Pre-requisites:
 
-A running version of Linux with access to the command line. you can use any version of Linux.
+A running version of Linux with access to the command line. You can use any version of Linux.
 
 ```PRETTY_NAME="Ubuntu 22.04.3 LTS"
 NAME="Ubuntu"
