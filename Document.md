@@ -5,8 +5,8 @@
 - [Introduction of Bash Scripting](#introduction-of-bash-scripting)
 
 - [Writing and Executing Simple Scripts](#writing-and-executing-simple-scripts)
-- [Conditinoal statement](#conditinoal-statement)
-- [ Operator](#Operator)
+- [Conditional statement](#conditional-statement)
+- [Operator](#Operator)
 - [Control flow](#control-flow)
 - [Array](#array)
 - [String](#string)
