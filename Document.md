@@ -289,8 +289,8 @@ Relational operators in Bash are used to compare values. They return true or fal
 
 **Less than or equal to (<=) or [[ $a -le $b ]]:** Returns true if the operand1 is Less than or equal to operand2.
 
-### Boolean Operators:
-logical operators are used to perform logical operations on expressions or conditions. The three main logical operators in Bash are:
+### Logical Operators:
+ Logical operators are used to perform logical operations on expressions or conditions. The three main logical operators in Bash are:
 
 **Logical AND (&&):** This operator returns true if both the left and right expressions are true.
 
